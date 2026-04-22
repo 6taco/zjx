@@ -1,4 +1,37 @@
-*
-!.gitignore
-!index.html
-backend/.env
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+frontend/dist/
+
+# Environment files (contain secrets)
+.env
+.env.local
+.env.*.local
+
+# Hardhat
+cache/
+artifacts/
+contracts/cache/
+contracts/artifacts/
+typechain-types/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.tgz
+coverage/
